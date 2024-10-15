@@ -1,0 +1,33 @@
+TASK A
+TITLE: - TensorFlow-based Text Classification Starting with Raw Text and Using the Embedding Space
+
+Description:
+
+Developing a fake news detection model can be highly beneficial especially for a country like Nigeria where many youths are affected mentally by so many false news flying every seconds especially in the context of its socio-political landscape and the prevalence of misinformation. 
+Here's how such a model could be useful:
+1.	Combatting Misinformation: I will say Nigeria, like many other countries, faces challenges related to the spread of misinformation, particularly through social media platforms. A fake news detection model could help identify and flag misleading or false information, thereby reducing the impact of misinformation on public opinion and decision-making.
+2.	Protecting Democratic Processes: In the context of elections and democratic processes, fake news can be used to manipulate public opinion, undermine trust in institutions, and even influence voting behavior. A robust fake news detection model can help safeguard the integrity of democratic processes by identifying and debunking false information related to elections and political candidates.
+
+Working on this project gives more unerstanding of the 3 model used and show the accuracy of each  model.NNLM-en-dim50/2, NNLM-en-dim50-with-normalization/2 and NNLM-en-dim128-with-normalization/2
+The fake and True dataset was used to train the 3 model.
+
+DATASET
+The dataset was gotten from Kaggle, two dataset named Fake news and True news was merged together. After merging the dataset, some column on the dataset that is not needed to train the models was dropped cleaning was initiated.
+The dataset is saved in my Goggle Drive. This dataset was saved in the google drive because of the size of the dataset
+The command to mount the dataset is included in the notebook.
+Also, the dataset is also attached in the zipped file and the command to call the dataset from the local machine is also added.
+
+IMPLEMENTTATION
+The implementation of the task was inititaed on Google colab and linux  and three model was trained with the dataset. The models includes;NNLM-en-dim50/2, NNLM-en-dim50-with-normalization/2 and NNLM-en-dim128-with-normalization/2. 
+All the three models have the capacity to convert sentences into embeddings vector which is the best way to represent the text.
+
+RESULT:
+The result shows that the model NNLM-en-dim50/2,has the best accuracy.
+
+
+
+
+
+
+
+
